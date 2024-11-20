@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>E-commerce site</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt="image not found"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><span class="cnt">0</span></li>
+                <a href="#" id="close">x</a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE, We'll love to hear from you!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody class="">
+                <tr id="protocart">
+                    <td id="trash"><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+                    <td id="pic"><img src="img/product/f1.jpg" alt=""></td>
+                    <td id="des">Floral Print Shirt</td>
+                    <td id="price">₹ 1299</td>
+                    <td id="quant"><input type="number" value="1"></td>
+                    <td class="subtotal">₹ 1299</td>
+                </tr>
+                <!-- <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+                    <td><img src="img/product/f2.jpg" alt=""></td>
+                    <td>Floral Print Shirt</td>
+                    <td>₹ 1299</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹ 1299</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+                    <td><img src="img/product/f3.jpg" alt=""></td>
+                    <td>Floral Print Shirt</td>
+                    <td>₹ 1299</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹ 1299</td>
+                </tr> -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter coupon code">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <!-- <tr>
+                    <td>Cart Subtotal</td>
+                    <td>₹ 3897</td>
+                </tr> -->
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong class="cart-total">₹ 0</strong></td>
+                </tr>
+
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="Error 404">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> Ekta nagar buldhana(443001), maharashtra</p>
+            <p><strong>Phone: </strong> (+91) 8999773434</p>
+            <p><strong>Hours: </strong> 10:00 - 16:00 | Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brandsfa-square-x-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-reddit"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Work with Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Play Store</p>
+            <div class="row">
+                <img src="img/store/app.jpg" alt="Error 404">
+                <img src="img/store/play.jpg" alt="Error 404">
+            </div>
+            <p>Secure Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="Error 404">
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2024 CARA® (Mini Project)</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

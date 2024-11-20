@@ -1,0 +1,68 @@
+{
+    "items":[
+        {
+            "id": 1,
+            "name": "floral print T-shirt",
+            "price": 1299,
+            "category":"men",
+            "type": "top",
+            "image": "img/product/f1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "floral print T-shirt",
+            "price": 1299,
+            "category":"men",
+            "type": "top",
+            "image": "img/product/f2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "floral print T-shirt",
+            "price": 1299,
+            "category":"men",
+            "type": "top",
+            "image": "img/product/f3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "floral print T-shirt",
+            "price": 1299,
+            "category":"unisex",
+            "type": "top",
+            "image": "img/product/f4.jpg"
+         },
+        {
+            "id": 5,
+            "name": "floral print T-shirt",
+            "price": 1299,
+            "category":"men",
+            "type": "top",
+            "image": "img/product/f5.jpg"
+        },
+       {
+            "id": 6,
+            "name": "floral print T-shirt",
+            "price": 1299,
+            "category":"unisex",
+            "type": "top",
+            "image": "img/product/f6.jpg"
+        },
+        {
+            "id": 7,
+            "name": "floral print T-shirt",
+            "price": 1299,
+            "category":"women",
+            "type": "bottom",
+            "image": "img/product/f7.jpg"
+        },
+        {
+            "id": 8,
+            "name": "floral print T-shirt",
+            "price": 1299,
+            "category":"women",
+            "type": "top",
+            "image": "img/product/f8.jpg"
+        }
+    ]
+}
